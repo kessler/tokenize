@@ -1,0 +1,22 @@
+{
+  "name": "@kessler/tokenize",
+  "version": "0.0.1",
+  "description": "personal tokenize util",
+  "license": "MIT",
+  "author": {
+    "name": "Yaniv Kessler",
+    "email": "yanivk@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~5.2.0"
+  },
+  "keywords": [
+    "token",
+    "tokenize",
+    "tokenizer"
+  ]
+}
