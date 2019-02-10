@@ -1,3 +1,14 @@
 language: node_js
 node_js:
   - "11"
+
+deploy:
+  - provider: script
+    script: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc 2>/dev/null
+    on:
+      tags: true
+
+  - provider: script
+    script: npm publish --access public
+    on:
+      tags: true
