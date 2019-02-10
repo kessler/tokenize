@@ -2,8 +2,6 @@
 
 **personal tokenize util**
 
-[![npm status](http://img.shields.io/npm/v/tokenize.svg?style=flat-square)](https://www.npmjs.org/package/tokenize) 
-
 ## example
 
 `npm i -S @kessler/tokenize`
