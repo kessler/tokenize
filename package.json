@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "personal tokenize util",
   "license": "MIT",
+  "private": false,
   "author": {
     "name": "Yaniv Kessler",
     "email": "yanivk@gmail.com"
