@@ -113,7 +113,7 @@ module.exports = (text,
 
 class Token {
 	constructor(content) {
-		this._content = content.toLowerCase()
+		this._content = content
 	}
 
 	get content() {
