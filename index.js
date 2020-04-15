@@ -4,9 +4,9 @@ const GLOBBING_CHARS = ['"', '\'']
 const SEPARATORS = [' ']
 
 /**
- *	go through some text and turn it into tokens, based on provided or default rules
+ *	 	go through some text and turn it into tokens, based on provided or default rules
  *
- *	TODO: add examples and defaults, especially to rules.something, add line breaks
+ *	 	TODO: add examples and defaults, especially to rules.something, add line breaks
  *    
  *    @param  {String} text - the text to tokenize
  *    @param  {Object} [rules] - tokenization rules
@@ -29,8 +29,6 @@ module.exports = (text,
 
 	for (let i = 0; i < text.length; i++) {
 		let char = text[i]
-
-		//console.log(`now considering "${char}"`)
 
 		if (isGlobbingMode()) {
 			if (isSameGlobbingChar(char)) {

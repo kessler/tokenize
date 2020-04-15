@@ -4,10 +4,7 @@
   "description": "personal tokenize util",
   "license": "MIT",
   "private": false,
-  "author": {
-    "name": "Yaniv Kessler",
-    "email": "yanivk@gmail.com"
-  },
+  "author": "Yaniv Kessler <yanivk@gmail.com>",
   "scripts": {
     "test": "mocha test.js"
   },
@@ -19,5 +16,14 @@
     "token",
     "tokenize",
     "tokenizer"
-  ]
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kessler/tokenize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kessler/tokenize/issues"
+  },
+  "homepage": "https://github.com/kessler/tokenize#readme"
 }
